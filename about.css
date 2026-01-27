@@ -1,4 +1,10 @@
 /* === PAGE HEADER === */
+.about-section {
+    padding: 5rem 2rem;
+    background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+    position: relative;
+    margin-top: 100px; 
+}
 .page-header {
     margin-top: 80px;
     height: 400px;
@@ -121,7 +127,7 @@
 
 .team-card {
     background: rgba(255, 255, 255, 0.95);
-    border-radius: 10px;
+    border-radius: 0px;
     overflow: hidden;
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
     transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
