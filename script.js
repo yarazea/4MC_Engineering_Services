@@ -329,15 +329,15 @@ filterButtons.forEach(button => {
 
 // Product Modal Functions
 const productImages = {
-    'product1': 'images/products/product1.jpg',
-    'product2': 'images/products/product2.jpg',
-    'product3': 'images/products/product3.jpg',
-    'product4': 'images/products/product4.jpg',
-    'product5': 'images/products/product5.jpg',
-    'product6': 'images/products/product6.jpg',
-    'product7': 'images/products/product7.jpg',
-    'product8': 'images/products/product8.jpg',
-    'product9': 'images/products/product9.jpg'
+    'product1': 'images/products/conveyor.jpg',
+    'product2': 'images/products/stainlesscabinet.jpg',
+    'product3': 'images/products/stainlesssink.jpg',
+    'product4': 'images/products/ductings.jpg',
+    'product5': 'images/products/universal.jpg',
+    'product6': 'images/products/epoxy.jpg',
+    'product7': 'images/products/reflow.jpg',
+    'product8': 'images/products/silicon.jpg',
+    'product9': 'images/products/logo.jpg'
 };
 
 function openProductModal(productId) {
