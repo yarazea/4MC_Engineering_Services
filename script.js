@@ -184,10 +184,10 @@ function openMachineImage(machineType) {
     const machineImages = {
         'cnc': 'images/machines/cnc.jpg',
         'milling': 'images/machines/milling.jpg',
-        'lathe': 'images/machines/lathe.jpg',
-        'welding': 'images/machines/welding.jpg',
-        'testing': 'images/machines/testing.jpg',
-        'automation': 'images/machines/automation.jpg'
+        'grinding': 'images/machines/grinding.jpg',
+        'siliconmoulder': 'images/machines/siliconmoulder.jpg',
+        'cutting': 'images/machines/cutting.jpg',
+        'laser': 'images/machines/laser.jpg'
     };
     
     img.src = machineImages[machineType];
