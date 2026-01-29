@@ -2004,10 +2004,39 @@ body {
     transform: translateY(-3px);
 }
 
-.footer-registration {
+.footer-hours {
     margin-top: 1.5rem;
     padding-top: 1.5rem;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-hours h4 {
+    color: var(--accent-color);
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.hours-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.hours-item i {
+    color: var(--accent-color);
+    font-size: 1.2rem;
+    margin-top: 0.2rem;
+}
+
+.hours-item div p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.hours-item div p strong {
+    color: var(--white);
 }
 
 .registration-item {
